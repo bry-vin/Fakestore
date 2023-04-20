@@ -4,7 +4,7 @@ function Product({product}){
     return(    
         <>          
             
-            <div className="three wide column">
+            <div className="two wide column">
                 <Link to={`/product/${product.id}`} >             
                     <div className="ui card">
                         <div className="rounded image">
