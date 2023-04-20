@@ -15,4 +15,4 @@ export const store = configureStore({
 
 setupListeners(store.dispatch);
 
-export {useFetchProductsQuery} from "./apis/productsApi";
+export {useFetchProductsQuery, usefetchProductQuery} from "./apis/productsApi";
