@@ -3,6 +3,7 @@ import ReactLoading from 'react-loading';
 import Product from "./Product";
 
 
+
 function ProductList(){
     const {data, isFetching, error} = useFetchProductsQuery();
     console.log(data);
@@ -22,10 +23,11 @@ function ProductList(){
 
     return( 
             <div>         
-                <h1>Product List</h1>          
-                <div className="ui relaxed centered grid"> 
-                  {content}                                                                    
-                </div>       
+                <h1>Product List</h1>               
+                    <div className="ui relaxed centered grid"> 
+                        {content}                                                                                      
+                </div>           
+                    
             </div>
                         
           

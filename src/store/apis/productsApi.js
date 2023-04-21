@@ -27,5 +27,5 @@ const productsApi = createApi({
     }
 });
 
-export const {useFetchProductsQuery, usefetchProductQuery} = productsApi;
+export const {useFetchProductsQuery, useFetchProductQuery} = productsApi;
 export {productsApi};
